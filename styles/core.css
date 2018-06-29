@@ -1,0 +1,78 @@
+input, select {
+	padding: 0.25em;
+}
+
+select option {
+	text-align: right;
+}
+
+.label {
+	margin: 0;
+	font-size: 0.75em;
+	margin-top: 1em;
+}
+
+.minus_drink, .add_drink {
+	margin-top: 1em;
+}
+
+.toggle {
+	padding: 1em;
+	cursor: pointer;
+	width: 3em;
+	height: 3em;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background: url('../images/settings.png');
+	background-size: 3em 3em;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.toggle[data-type="alarm"] {
+	background: url('../images/alarm.png');
+	background-size: 3em 3em;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.settings, .alarm {
+	display: none;
+}
+
+.settings[data-show="true"], .alarm[data-show="true"] {
+	display: block;
+}
+
+.alarm {
+	text-align: center;
+	font-size: 2em;
+	margin-top: 1em;
+}
+
+.alarm .drinks_till_goal {
+	font-size: 2em;
+}
+
+.section {
+	margin-top: 1em;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.section label {
+	font-size: 0.75em;
+	margin-bottom: 0.5em;
+	display: block;
+}
+
+.section input {
+	text-align: center;
+}
+.height input {
+	width: 1.25em;
+}
+.weight input {
+	width: 1.75em;
+}
